@@ -5,6 +5,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-inline: auto;
 
   & img { 
     width: 2rem;
@@ -20,11 +21,11 @@ header {
     transform: rotate(-30deg);
   }
 
-  a {
+  & a {
     position: relative;
   }
 
-  a span {
+  & a span {
     position: absolute;
     top: -0.5rem;
     right: -0.5rem;
