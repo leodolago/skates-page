@@ -1,7 +1,14 @@
-*, *::after, *::before {
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+* {
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  --mox-osx-font-smoothing: grayscale;
 }
 
 :root {
@@ -40,4 +47,9 @@ h1 {
 h2 {
   font-size: var(--text-lg);
   line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
